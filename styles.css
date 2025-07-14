@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --primary-font: 'Roboto', sans-serif;
+    --hero-footer-bg: #1F2937;
+    --hero-text-color: #F9FAF8;
+    --hero-text-weight: 900;
+    --hero-text-size: 48px;
+    --hero-subtext-size: 18px;
+    --hero-subtext-color: #E5E7EB; /*same color for header link text*/
+    --hero-subtext-size: 18px;
+    --header-link-text-size: 18px;
+    --header-logo-text-size: 24px;
+    --header-logo-text-color: #F9FAF8;
+    --button-bg-color: #3882F6;
+    --information-header-text-color: #1F2937;
+    --information-header-text-size: 36px;
+    --information-header-text-weight: 900;
+    --quote-section-bg-color: #E5E7EB;
+    --quote-text-color: #1F2937;
+    --quote-text-size: 36px;
+    --quote-text-style: italic;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hero {
+    background-color: var(--hero-footer-bg);
+    color: var(--hero-text-color);
+    font-family: var(--primary-font);
+    padding: 50px 400px;
+    width: 100%;
+    height: 60vh;
+}
+
+header {
+    /* border: 5px solid yellow; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: var(--hero-footer-bg);
+}
+
+.logo {
+    font-size: var(--header-logo-text-size);
+    color: var(--header-logo-text-color);
+    font-weight: 700;
+}
+
+ul > li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.hero-content {
+    /* border: 2px solid violet; */
+    width: 100%;
+    height: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+    flex: 1;
+}
+
+.content-text {
+    /* border: 2px solid red; */
+    width: 350px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.hero-image {
+    max-width: 500px;
+    border-radius: 20px;
+}
+
+h1 {
+    font-size: var(--hero-text-size);
+    font-weight: var(--hero-text-weight);
+    margin-bottom: 15px;
+}
+
+.content-text > p {
+    font-size: var(--hero-subtext-size);
+    color: var(--hero-subtext-color);
+}
+
+.cta-button {
+    background-color: var(--button-bg-color);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: var(--hero-subtext-size);
+    margin-top: 20px;
+    width: 200px;
+}
+
+
+
