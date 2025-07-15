@@ -154,4 +154,16 @@ img {
     border-radius: 20px;
 }
 
+footer {
+    background-color: var(--hero-footer-bg);
+    color: var(--hero-text-color);
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 
