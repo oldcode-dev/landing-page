@@ -8,7 +8,6 @@
     --hero-text-size: 48px;
     --hero-subtext-size: 18px;
     --hero-subtext-color: #E5E7EB;
-    /*same color for header link text*/
     --hero-subtext-size: 18px;
     --header-link-text-size: 18px;
     --header-logo-text-size: 24px;
@@ -202,6 +201,32 @@ img {
     justify-content: center;
 }
 
+.quote {
+    width: 100%;
+    height: 50vh;
+    padding: 20px ;
+    background-color: var(--quote-section-bg-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote h2, .quote p {
+    color: var(--quote-text-color);
+    font-size: var(--quote-text-size);
+}
+
+.quote p {
+    font-style: italic;
+}
+
+span {
+    display: block;
+    text-align: right;
+    margin-top: 20px;
+    font-weight: bold;
+}
 
 
 
