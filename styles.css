@@ -27,6 +27,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: var(--primary-font);
 }
 
 .hero {
@@ -108,5 +109,49 @@ h1 {
     width: 200px;
 }
 
+.about-us {
+    padding: 50px 400px;
+    width: 100%;
+    height: 60vh;
+}
+
+.our-team {
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-around;
+    flex: 1;
+    margin: auto;
+    width: 100%;
+    height: 200px;
+   
+}
+
+h2 {
+    font-size: var(--information-header-text-size);
+    color: var(--information-header-text-color);
+    font-weight: var(--information-header-text-weight);
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.about-us > p {
+    font-size: var(--hero-subtext-size);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.container {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 20px;
+}
+
+
+img {
+    width: 100%;
+    height: 100%;
+    border: 5px solid var(--button-bg-color);
+    border-radius: 20px;
+}
 
 
