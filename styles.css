@@ -7,7 +7,8 @@
     --hero-text-weight: 900;
     --hero-text-size: 48px;
     --hero-subtext-size: 18px;
-    --hero-subtext-color: #E5E7EB; /*same color for header link text*/
+    --hero-subtext-color: #E5E7EB;
+    /*same color for header link text*/
     --hero-subtext-size: 18px;
     --header-link-text-size: 18px;
     --header-logo-text-size: 24px;
@@ -55,7 +56,7 @@ header {
     font-weight: 700;
 }
 
-ul > li {
+ul>li {
     list-style: none;
     display: inline-block;
     margin-right: 20px;
@@ -92,7 +93,7 @@ h1 {
     margin-bottom: 15px;
 }
 
-.content-text > p {
+.content-text>p {
     font-size: var(--hero-subtext-size);
     color: var(--hero-subtext-color);
 }
@@ -123,7 +124,7 @@ h1 {
     margin: auto;
     width: 100%;
     height: 200px;
-   
+
 }
 
 h2 {
@@ -134,7 +135,7 @@ h2 {
     text-align: center;
 }
 
-.about-us > p {
+.about-us>p {
     font-size: var(--hero-subtext-size);
     text-align: center;
     margin-bottom: 20px;
@@ -154,6 +155,60 @@ img {
     border-radius: 20px;
 }
 
+.call-to-action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding: 50px 400px;
+    width: 100%;
+    height: 60vh;
+}
+
+.cta-content {
+    background-color: #3882F6;
+    width: 100%;
+    height: 20vh;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 40px;
+
+}
+
+.cta-content > div h2 {
+    color: white;
+    font-weight: 700;
+}
+
+.cta-content > div p {
+    color: var(--quote-section-bg-color)
+}
+
+.cta-button-white {
+    background-color: var(--button-bg-color);
+    color: white;
+    padding: 10px 20px;
+    border: 2px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: var(--hero-subtext-size);
+    margin-top: 20px;
+    width: 200px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
 footer {
     background-color: var(--hero-footer-bg);
     color: var(--hero-text-color);
@@ -165,5 +220,3 @@ footer {
     justify-content: center;
     align-items: center;
 }
-
-
